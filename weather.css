@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
+html{
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: url("images/tent.jpeg") no-repeat;
+  background-size: cover;
+}
+body {
+  font-size: 16pt;
+  font-family:  "Raleway", sans-serif;
+  color: #C9AEEB;
+  font-weight: 400;
+}
+.appinfo {
+  width: 50%;
+  margin: 5% auto;
+  text-align: center;
+  margin-bottom: 0;
+}
+.appname {
+  font-size: 2em;
+}
+.author {
+  font-size: 14pt;
+  color: #A8A8A8;
+}
+.weatherinfo {
+  color: #C9AEEB;
+  margin: ;
+  text-align: center;
+}
+.weatherinfo {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.weatherinfo li {
+  display: block;
+  width: 30%;
+  line-height: 1.5em;
+  text-align: center;
+  margin: 15px auto;
+  border-radius: 10px;
+  background: rgba(218, 218, 255, 0.3);
+}
